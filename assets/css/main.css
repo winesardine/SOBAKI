@@ -1840,6 +1840,7 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
+		appearance: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1921,6 +1922,7 @@
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
+			pointer-events: none;
 			opacity: 0.25;
 		}
 
@@ -2082,6 +2084,7 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
+		appearance: none;
 		border-radius: 0;
 		border: none;
 		border: solid 3px;
@@ -2121,6 +2124,7 @@
 			display: block;
 			height: 2.75em;
 			line-height: 2.75em;
+			pointer-events: none;
 			position: absolute;
 			right: 0;
 			text-align: center;
@@ -2148,6 +2152,7 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
+		appearance: none;
 		display: block;
 		float: left;
 		margin-right: -2em;
