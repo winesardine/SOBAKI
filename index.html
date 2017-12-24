@@ -120,27 +120,28 @@ href="generic.html" alt='labrador'/></span>
 			<section id="footer">
 				<div class="inner">
 					<header>
-						<h2>Оставайтесь на связи</h2>
+						<h2>Оставьте свой комментарий о том, как сделать наш ресурс о песиках еще лучше!</h2>
 					</header>
-					<form id="myform" method="post">
-<label>from_name</label>
-<input type="text" name="Ваше имя" />
-<label>message_html</label>
-<input type="text" name="Ваше сообщение" />
-<br><br>
-<button>
-<strong> Отправить </strong>
-</button>
-</form>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Имя</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Электронная почта</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Сообщение</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+						
+						<ul class="actions">
+							<li><input type="submit" value="Отправить" class="alt" /></li>
+						</ul>
+						
+					</form>
 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_675flXmqGfF2eJbJ3Nlws");
-   })();
-</script>
 				
 				<form>
 <input type="button" value="Facebook" onClick='location.href="https://www.facebook.com/sobakibalabakicom/"'>
